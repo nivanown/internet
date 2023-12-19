@@ -152,9 +152,28 @@ body {
 /* section__md-panel */
 .section__md-panel {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
   }
 
+/* contact */
+.contact dt {
+  margin: 0 0 20px;
+  color: #E13040;
+  font-size: 27px;
+  line-height: 20px;
+  }
+
+.contact dd {
+  font-size: 27px;
+  line-height: 20px;
+  }
+
+.contact dd a {
+  color: #fff;
+  }
+
+/* sticker */
 .sticker {
   position: relative;
   display: flex;
@@ -230,6 +249,17 @@ body {
 .slogan small {
   font-size: 2.34vw;
   line-height: 1.67vw;
+  }
+
+.contact dt {
+  margin: 0 0 1.04vw;
+  font-size: 1.41vw;
+  line-height: 1.04vw;
+  }
+
+.contact dd {
+  font-size: 1.41vw;
+  line-height: 1.04vw;
   }
 
 .sticker {
